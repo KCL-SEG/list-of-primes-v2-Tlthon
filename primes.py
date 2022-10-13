@@ -14,7 +14,7 @@ def primes(number_of_primes : int):
         number += 1
     return list_of_primes
 
-def isPrime(number : int, prime_list: list[int]) -> bool:
+def isPrime(number : int, prime_list: list) -> bool:
     for prime in prime_list:
         if number % prime == 0:
             return False
